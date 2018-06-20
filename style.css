@@ -1,0 +1,166 @@
+* {	box-sizing: border-box;
+			}
+
+#top {
+	position: relative;
+    text-align: center;
+    background-color: #b5b5b5;
+    color: white;
+	/*background-image: url("drawing.png");
+	background-position: 100% 100%;
+   background-repeat: no-repeat;*/
+}
+
+#top h1 {
+    /*position: absolute;*/
+    
+    font-family: 'Abril Fatface', cursive;
+    font-size: 200px;
+    letter-spacing: 2px;
+    max-width: 100%;
+  /*  top: 50%;
+    left: 50%;*/
+  /*  transform-origin: 50%;
+    transform: translate(-50%, -50%);*/
+    width: 100%;
+    margin: 0;
+}
+#top img {
+	max-width: 100%; 
+
+}
+
+.words{
+	font-family: 'Oswald', sans-serif;
+}
+
+.cloud {
+	display:none;
+}
+
+.nyc {
+    width: 80%;
+    
+}
+
+.why {
+	position:relative;
+	text-align:center;
+	
+}
+
+.center {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30px;
+	color:#ff5a5b;
+	/*position: absolute;*/
+   /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+.money {
+	position:relative;
+	text-align:center;
+	color:#ffff48;
+}
+
+.next {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30px;
+	/*position: absolute;*/
+   /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+.culture {
+	position:relative;
+	text-align:center;
+	color:#a4d550;
+}
+
+.okay{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30px;
+	/*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+.bye {
+	position:relative;
+	text-align:center;
+	color:#39d3ff;
+	font-size: 200px;
+
+}
+
+.cry {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30px;
+
+	
+	/*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+
+}
+
+/*.why h2 {
+	position: relative;
+	font-size: 30px;
+	top: 50%;
+    left: 50%;
+    transform-origin: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin: 0;
+}
+
+.why img {
+	max-width: 40%;
+}
+*/
+/*.why ::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-image: url(drawing.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 0%;
+    transform-origin: 50%;
+    transform: translate( calc(-50% + 54px), -50% );
+    z-index: -1;
+}*/
+
+body {
+	background-color: #3d3d3e;
+	padding: 0px;
+    margin: 0px;
+}
+
+body p{
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;}
+
+.footer-icon-wrapper {
+	display: inline-block;
+	color:white;
+			}
+
+footer {
+		width: 100%;
+		background-color: #2b2b2f;
+		padding:20px;
+		text-align: center;
+		color: white;
+		font-family: 'Abril Fatface', sans-serif;
+		font-size: 15px;
+			}
